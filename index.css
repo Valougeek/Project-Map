@@ -1,0 +1,16 @@
+body{
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    background-size: 100%;
+
+}
+
+#wallpaper{
+    margin:-10px;
+    position: absolute;
+}
+
+#title{
+    position: absolute;
+    z-index: 999;
+}
