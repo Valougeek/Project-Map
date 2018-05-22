@@ -7,6 +7,7 @@ body{
 
 #wallpaper{
     margin:-10px;
+    padding:-10px;
     position: absolute;
     width:100%;
     height:100%;
@@ -15,13 +16,16 @@ body{
 #title{
     position: absolute;
     z-index: 999;
-    text-shadow: #FEEABA 0.5px 0.5px, #FEEABA  -0.5px 0.5px, #FEEABA  -0.5px -0.5px, #FEEABA  0.5px -0.5px; 
+    text-shadow: #FEEABA 0.7px 0.7px, #FEEABA  -0.7px 0.7px, #FEEABA  -0.7px -0.7px, #FEEABA  0.7px -0.7px; 
     font-size: 1.5em;
+    margin-left: 15px;
+    margin-top: -30px;
 }
 
 nav{
+    /*background-image: URL(images/texture4.jpg);*/
     position: absolute;
-    background-color: #FEEABA;
+    background-color: rgb(247, 218, 151);
     margin: -10px;
     margin-left: 1100px;
     width: 210px;
@@ -41,4 +45,9 @@ nav a{
     color: black;
     text-decoration: none; /* pour quitter le surlignage */
     text-shadow: black 0.3px 0.3px, black -0.3px 0.3px, black -0.3px -0.3px, black 0.3px -0.3px; 
+}
+
+nav li a:hover{
+    font-weight: bold;
+
 }
